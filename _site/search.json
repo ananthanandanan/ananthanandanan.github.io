@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Vim - magic of key binding",
+      "category" : "",
+      "tags"     : "Tech, Text Editor, Productivity",
+      "url"      : "/blog/vim",
+      "date"     : "2021-02-12 00:00:00 +0530"
+    } ,
+  
+    {
       "title"    : "Martial Arts Origin and its philosophy",
       "category" : "",
       "tags"     : "Health, Martial Arts, Philosophy",

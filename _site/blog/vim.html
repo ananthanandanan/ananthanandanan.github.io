@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vim - magic of key binding">
+  <meta property="og:description" content="vim is highly configurable text editor, which is built for creating/inserting/deleting or making changes in a very efficient way.">
+
+  <title>Vim - magic of key binding</title>
+  <meta name="description" content="vim is highly configurable text editor, which is built for creating/inserting/deleting or making changes in a very efficient way.">
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+</head>
+
+
+<body class="d-flex flex-column h-100">
+
+  <main class="flex-shrink-0 container mt-5">
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+  <a class="navbar-brand" href="/"><h5><b>Horizon</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+    </div>
+  </div>
+
+</nav>
+  <div class="col-lg-10 mx-auto mt-5 post">
+  <h1><b>Vim - magic of key binding</b></h1>
+
+<p class="post-metadata text-muted">
+  12 February 2021 -  
+  <b>5 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#tech">
+      <span class="tag badge badge-pill text-primary border border-primary">Tech</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#text-editor">
+      <span class="tag badge badge-pill text-primary border border-primary">Text Editor</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#productivity">
+      <span class="tag badge badge-pill text-primary border border-primary">Productivity</span>
+    </a>
+    </p>
+
+<p>I decided to write this blog, after I tried my hands on using vim editor. I got to know about it from reading other posts like , “ the war of editor” for example. So this tempted me to try it out. I didn’t had that much expectation, since all I knew was that it looked like prehistoric boring text editor. But Oh boy was I wrong. so lets share my experience and the setup that I use currently.</p>
+
+<h2 id="what-is-vim">What is vim?</h2>
+
+<p>I would describe vim as a highly configurable text editor, which is built for creating/inserting/deleting or making changes in a very efficient way. It is pretty fast and stable. There are a lot of features thats hidden from our naked eyes. It is often compared with another text editor, called emac. They fall under the famous “war of editor”.</p>
+
+<h2 id="the-learning-curve">The learning curve</h2>
+
+<p>Yes, initially it will feel very daunting and scary. But if we can spend a week exploring and understanding its mechanics, searching how to set the key binding, which is the key standout😃.</p>
+
+<p>But when you get comfortable with it, you will soon understand it is a pandora box of customisations. So when you get over that learning curve it will be a breeze.</p>
+
+<h2 id="why-use-it--">Why use it ? 🤔</h2>
+
+<p>Well that depends on the user, it could vary depending on what you are working on. For me I felt comfortable using it as a secondary text editor whereas vscode as my primary. This basically means that I use vscode for editing large projects and for quick edits or for small projects I use vim. The next attraction, are the numerous plugins that is created by the vast community. If you spend sometimes researching about it, you can have a repertoire of useful plugins, which will make your coding experience even easier. There are many plugins out there, some of the ones that I use are YouCompleteMe - for awesome code completion, the best in my opinion 💪, gitgutter - for keeping track of git changes, gruvbox for the best theme and the famous nerdtree. When it comes to key binding it takes time and experimenting is th key. I found what I felt was comfortable for me. So I will share it below.</p>
+
+<hr />
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">syntax</span> <span class="n">on</span>
+
+<span class="n">set</span> <span class="n">noerrorbells</span>
+<span class="n">set</span> <span class="n">tabstop</span><span class="o">=</span><span class="mi">4</span> <span class="n">softtabstop</span><span class="o">=</span><span class="mi">4</span>
+<span class="n">set</span> <span class="n">shiftwidth</span><span class="o">=</span><span class="mi">4</span>
+<span class="n">set</span> <span class="n">expandtab</span>
+<span class="n">set</span> <span class="n">smartindent</span>
+<span class="n">set</span> <span class="n">nu</span>
+<span class="n">set</span> <span class="n">nowrap</span>
+<span class="n">set</span> <span class="n">smartcase</span>
+<span class="n">set</span> <span class="n">noswapfile</span>
+<span class="n">set</span> <span class="n">nobackup</span>
+<span class="n">set</span> <span class="n">undodir</span><span class="o">=~/</span><span class="p">.</span><span class="n">vim</span><span class="o">/</span><span class="n">undodir</span>
+<span class="n">set</span> <span class="n">undofile</span>
+<span class="n">set</span> <span class="n">incsearch</span>
+
+<span class="n">set</span> <span class="n">colorcolumn</span><span class="o">=</span><span class="mi">80</span>
+<span class="n">highlight</span> <span class="n">ColorColumn</span> <span class="n">ctermbg</span><span class="o">=</span><span class="mi">0</span> <span class="n">guibg</span><span class="o">=</span><span class="n">lightgrey</span>
+
+
+<span class="n">call</span> <span class="n">plug</span><span class="err">#</span><span class="n">begin</span><span class="p">(</span><span class="err">'</span><span class="o">~/</span><span class="p">.</span><span class="n">vim</span><span class="o">/</span><span class="n">plugged</span><span class="err">'</span><span class="p">)</span>
+
+<span class="n">Plug</span> <span class="err">'</span><span class="n">morhetz</span><span class="o">/</span><span class="n">gruvbox</span><span class="err">'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">jremmen</span><span class="o">/</span><span class="n">vim</span><span class="o">-</span><span class="n">ripgrep</span><span class="err">'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">tpope</span><span class="o">/</span><span class="n">vim</span><span class="o">-</span><span class="n">fugitive</span><span class="err">'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">leafgarland</span><span class="o">/</span><span class="n">typescript</span><span class="o">-</span><span class="n">vim</span><span class="err">'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">vim</span><span class="o">-</span><span class="n">utils</span><span class="o">/</span><span class="n">vim</span><span class="o">-</span><span class="n">man</span><span class="err">'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">lyuts</span><span class="o">/</span><span class="n">vim</span><span class="o">-</span><span class="n">rtags</span><span class="err">'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">https</span><span class="o">:</span><span class="c1">//github.com/ctrlpvim/ctrlp.vim.git'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">https</span><span class="o">:</span><span class="c1">//github.com/ycm-core/YouCompleteMe.git'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">https</span><span class="o">:</span><span class="c1">//github.com/airblade/vim-gitgutter.git'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">mbbill</span><span class="o">/</span><span class="n">undotree</span><span class="err">'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">https</span><span class="o">:</span><span class="c1">//github.com/preservim/tagbar.git'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">preservim</span><span class="o">/</span><span class="n">nerdtree</span><span class="err">'</span>
+<span class="n">Plug</span> <span class="err">'</span><span class="n">itchyny</span><span class="o">/</span><span class="n">lightline</span><span class="p">.</span><span class="n">vim</span><span class="err">'</span>
+
+<span class="n">call</span> <span class="n">plug</span><span class="err">#</span><span class="n">end</span><span class="p">()</span>
+
+<span class="n">colorscheme</span> <span class="n">gruvbox</span>
+<span class="n">set</span> <span class="n">background</span><span class="o">=</span><span class="n">dark</span>
+
+<span class="n">let</span> <span class="n">mapleader</span> <span class="o">=</span> <span class="s">" "</span>
+<span class="n">let</span> <span class="n">g</span><span class="o">:</span><span class="n">netrw_browse_split</span><span class="o">=</span><span class="mi">2</span>
+<span class="n">let</span> <span class="n">g</span><span class="o">:</span><span class="n">netrw_banner</span><span class="o">=</span><span class="mi">0</span>
+<span class="n">let</span> <span class="n">g</span><span class="o">:</span><span class="n">netrw_winsize</span> <span class="o">=</span> <span class="mi">25</span>
+
+<span class="n">let</span> <span class="n">g</span><span class="o">:</span><span class="n">ctrlp_use_caching</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">leader</span><span class="o">&gt;</span><span class="n">h</span> <span class="o">:</span><span class="n">wincmd</span> <span class="n">h</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">leader</span><span class="o">&gt;</span><span class="n">j</span> <span class="o">:</span><span class="n">wincmd</span> <span class="n">j</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">leader</span><span class="o">&gt;</span><span class="n">k</span> <span class="o">:</span><span class="n">wincmd</span> <span class="n">k</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">leader</span><span class="o">&gt;</span><span class="n">l</span> <span class="o">:</span><span class="n">wincmd</span> <span class="n">l</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">leader</span><span class="o">&gt;</span><span class="n">u</span> <span class="o">:</span><span class="n">UndotreeShow</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">leader</span><span class="o">&gt;</span><span class="n">po</span> <span class="o">:</span><span class="n">wincmd</span> <span class="n">v</span><span class="o">&lt;</span><span class="n">bar</span><span class="o">&gt;</span> <span class="o">:</span><span class="n">Ex</span> <span class="o">&lt;</span><span class="n">bar</span><span class="o">&gt;</span> <span class="o">:</span><span class="n">vertical</span> <span class="n">resize</span> <span class="mi">30</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">leader</span><span class="o">&gt;+</span> <span class="o">:</span><span class="n">vertical</span> <span class="n">resize</span> <span class="o">+</span><span class="mi">5</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">leader</span><span class="o">&gt;</span> <span class="o">-</span> <span class="o">:</span><span class="n">vertical</span> <span class="n">resize</span> <span class="o">-</span><span class="mi">5</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">leader</span><span class="o">&gt;</span><span class="n">n</span> <span class="o">:</span><span class="n">NERDTreeToggle</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">silent</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">Leader</span><span class="o">&gt;</span><span class="n">gd</span> <span class="o">:</span><span class="n">YcmCompleter</span> <span class="n">GoTo</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+<span class="n">nnoremap</span> <span class="o">&lt;</span><span class="n">silent</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">Leader</span><span class="o">&gt;</span><span class="n">gf</span> <span class="o">:</span><span class="n">YcmCompleter</span> <span class="n">FixIt</span><span class="o">&lt;</span><span class="n">CR</span><span class="o">&gt;</span>
+
+
+<span class="s">" Start NERDTree and leave the cursor in it.</span><span class="err">
+</span><span class="s">autocmd VimEnter * NERDTree | wincmd p</span><span class="err">
+
+</span><span class="s">highlight GitGutterAdd guibg=#009900 ctermbg=Green</span><span class="err">
+</span><span class="s">highlight GitGutterChange guibg=#bbbb00 ctermbg=Yellow</span><span class="err">
+</span><span class="s">highlight GitGutterAdd guibg=#ff2222 ctermbg=Red</span><span class="err">
+</span><span class="s">let g:gitgutter_enabled = 1</span><span class="err">
+</span><span class="s">let g:gitgutter_map_keys = 0</span><span class="err">
+</span></code></pre></div></div>
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>So from my experience till now its worth putting in an effort to try out vim, you wanna look like  hardcore developer 😉 or for a productive workflow. But at the end the day, its your preference, find what suits you. Vim is not for everyone and different people have different taste in text editors, and there are a bunch of them out there. So with that, until my next post, Adios.</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li><a href="https://vimsheet.com/">vim cheatsheet</a></li>
+  <li><a href="https://www.youtube.com/watch?v=n9k9scbTuvQ&amp;t=816s">A tutorial</a></li>
+  <li><a href="https://vimawesome.com/">Vim plugins</a></li>
+</ul>
+
+
+
+<div class="pt-5">
+  
+</div>
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>K N Anantha nandanan</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:ananthanandanan@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/ananthanandanan"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/ananthan_2k"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/ananthan2k"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/de-blank"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+</body>
+
+</html>
