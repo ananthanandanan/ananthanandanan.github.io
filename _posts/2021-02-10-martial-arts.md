@@ -6,12 +6,19 @@ color: success
 description: Martial arts derived its name from the "martial" which literally mean Mars, which is the roman god of war. So martial arts mean "The Art of War". 
 ---
 
+![](https://digipromarketers.com/wp-content/uploads/2020/10/Martial-Arts.jpeg)
 
 Martial arts, it has been part of us for many centuries. It has been the vital differentiator in ancient wars. It showed an individuals power, determination and discipline. They were respected and treated as nobles. But martial arts also brought about different style of warfare tactics. In the present age, it is not used for violence nearly as in the past. After the dawn of firearms, martials arts had began to diminish in warfare. Now its a form of self-discipline, self defense and to keep our body healthy. For the comfort of reading I will break it down into parts.
 
 ## 1.How it originated?
 
 Martial arts derived its name from the "martial" which literally mean Mars, which is the roman god of war. So martial arts mean "The Art of War".  It did came a form of warfare, in which throughout history different styles of could be found with its own unique touch.  But answering the true origin is tough. There depicted in the murals of one of the tombs of Beni Hasan in Egypt that are dated to about the 20th century BC. We see similar notations in Gilgamesh epics dating back to about 18th century, moving eastward. The next we really know about from the East is Sun Tzu describing the Art of War in the 6th century BC. 
+
+{% capture carousel_images %}
+https://www.leaderonomics.com/storage/Images/suntzu.jpg
+https://qph.fs.quoracdn.net/main-qimg-eda51f0c24e863ca6c82094712a94c40
+{% endcapture %}
+{% include elements/carousel.html %}
 
 Many might have heard about Bodhidharma(Truth of Awakening) - the father of Marital arts. The legend goes that Bodhidharma travelled to China and taught the monks in Shaolin kung fu. But many historians believe this is a misconception. This is because the story in itself is quite fascinating 
 
@@ -24,6 +31,8 @@ Now let's understand the diversity and dig a bit deeper into it.
 It can be told that non-practitioner do underestimate or put a stereotype over it. They think there are only karate, Kung Fu. Well they are basically misinformed about it. There are many different styles with various techniques, belt colours and much else. There are many arts which are specific to a particular movement. For example taekwondo and capoeira. are kicking arts whereas Wing Chun and Boxing are punching arts. There are other arts which use their entire body like Muay thai, Karate. There are pinning arts like Judo, Aikido, Ju-Jitsu etc. weapon arts and many more.
 
 By the late 19th century, martial arts got very popular in Europe. But it was not well know to the west till the 1950's. But during the colonial period the west and other colonial countries wanted to show their might. So bouts were conducted in public. West saw the potential for it in close quarter combat(CQC) and sent their army to China, Japan and Korea. During the Korean war Taekwondo flourished. In the early 1970's many marital arts movies, in particular those by Bruce Lee, further popularized martial arts  and inspired many practitioners to take up some form of martial arts out of passion and curiosity. He was also my reason to take it up marital arts. 
+
+![](https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2018/07/Bruce-Lee-607431098.jpg)
 
 The main philosophy behind marital arts is that it puts a great emphasize on essence of self-control, respect for others, and positive perspective to strive for the best in life. From my experience I have seen taking up marital arts purely either for violence or revenge. This stems from the their notion that martial arts is all about fighting. But it is not. In reality it teaches you how to avoid fights, and indulge in fights as the last measure of self-defense. You might be thinking why that is?.
 
