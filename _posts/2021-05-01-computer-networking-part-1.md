@@ -1,9 +1,9 @@
 ---
-title: Part-1 Computer Networks and the internet
+title: Part-1 Computer Networks and the Internet
 tags: [Networking, Internet, Intro]
 style: fill
 color: dark
-description: This is the introduction to Internet, were we look into the basic concepts revolving around it. 
+description: This is the introduction to Internet, where we look into the basic concepts revolving around it. 
 ---
 
 ![](https://www.akamai.com/us/en/multimedia/images/custom/2018/hero-video.jpg?imwidth=1366)
