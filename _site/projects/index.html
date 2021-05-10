@@ -26,33 +26,34 @@
   <title>Projects</title>
   <meta name="description" content="I don't work hard, I work smart.   Backend Developer/Networking and Analysis   Student at Amrita Vishwa Vidyapeetham    Member at amFOSS ">
 
-  
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
 
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
 
   <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
   <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
-
-<body class="d-flex flex-column h-100">
+<body class="h-100 d-flex flex-column">
 
   <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-themed">
 
   <a class="navbar-brand" href="/"><h5><b>K.N Anantha nandanan</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -64,45 +65,44 @@
 
       
 
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
 
 </nav>
-  <!-- Remote Projects JS -->
-<script src="/assets/js/remote-projects.js"></script>
-
+    
 <div class="card-columns m-3 mt-5">
 
   <!-- Remote Projects -->
   <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="https://github.com/ananthanandanan/Hotel-DB" class="project card text-dark"><div class="card-body">
+  <a href="https://github.com/ananthanandanan/Hotel-DB" class="project card text-themed"><div class="card-body">
       <h5 id="Hotel-DB-name" class="card-title"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;Hotel Db
       </h5>
       <p id="Hotel-DB-desc" class="card-text">A gui based Hotel management system</p>
-      <p id="Hotel-DB-tools" class="card-text"></p>
+      <p id="Hotel-DB-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">java</span><span class="badge badge-pill text-primary border border-primary ml-1">gui</span><span class="badge badge-pill text-primary border border-primary ml-1">postgresql</span><span class="badge badge-pill text-primary border border-primary ml-1">javafx-application</span><span class="badge badge-pill text-primary border border-primary ml-1">hotel-management-system</span></p>
     </div>
   </a>
-</div>
-
-    <script>get_tools("ananthanandanan/Hotel-DB")</script>
-
-  <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="https://github.com/ananthanandanan/Craig-Scraper" class="project card text-dark"><div class="card-body">
+</div><div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="https://github.com/ananthanandanan/Craig-Scraper" class="project card text-themed"><div class="card-body">
       <h5 id="Craig-Scraper-name" class="card-title"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;Craig Scraper
       </h5>
       <p id="Craig-Scraper-desc" class="card-text">This is a django project that provides search results by using beautifulsoup</p>
-      <p id="Craig-Scraper-tools" class="card-text"></p>
+      <p id="Craig-Scraper-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">python</span><span class="badge badge-pill text-primary border border-primary ml-1">django</span><span class="badge badge-pill text-primary border border-primary ml-1">materializecss</span><span class="badge badge-pill text-primary border border-primary ml-1">hacktoberfest</span><span class="badge badge-pill text-primary border border-primary ml-1">beautifulsoup4</span></p>
+    </div>
+  </a>
+</div><div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="https://github.com/ananthanandanan/NaWaB" class="project card text-themed"><div class="card-body">
+      <h5 id="NaWaB-name" class="card-title"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;Nawab
+      </h5>
+      <p id="NaWaB-desc" class="card-text">NaWaB is a bot which shares all sorts of information regarding Computer Networks scraping twitter content</p>
+      <p id="NaWaB-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">python</span><span class="badge badge-pill text-primary border border-primary ml-1">bot</span><span class="badge badge-pill text-primary border border-primary ml-1">cli</span><span class="badge badge-pill text-primary border border-primary ml-1">twitter</span><span class="badge badge-pill text-primary border border-primary ml-1">telegram-bot</span><span class="badge badge-pill text-primary border border-primary ml-1">pandas-dataframe</span></p>
     </div>
   </a>
 </div>
 
-    <script>get_tools("ananthanandanan/Craig-Scraper")</script>
-
-  
-
   <!-- Local Projects -->
   <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/project-hoteldb" class="project card text-dark"><img id="hotel-db-img" class="card-img-top" src="https://revcycleintelligence.com/images/site/article_headers/_normal/hospital%2C_green.jpg" alt="Hotel-DB" /><div class="card-body">
+  <a href="/projects/project-hoteldb" class="project card text-themed"><img id="hotel-db-img" class="card-img-top" src="https://revcycleintelligence.com/images/site/article_headers/_normal/hospital%2C_green.jpg" alt="Hotel-DB" /><div class="card-body">
       <h5 id="hotel-db-name" class="card-title">Hotel-DB
       </h5>
       <p id="hotel-db-desc" class="card-text">A gui based Hotel management system</p>
@@ -111,9 +111,20 @@
   </a>
 </div>
 
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="https://github.com/Fireboltz/NAV-FT" class="project card text-themed"><div class="card-body">
+      <h5 id="nav-ft-name" class="card-title">NAV-FT
+      </h5>
+      <p id="nav-ft-desc" class="card-text">NAV-FT contains some of the features that we can use to speed up the process of vehicle fitness testing.</p>
+      <p id="nav-ft-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Flutter</span><span class="badge badge-pill text-primary border border-primary ml-1">TensorFlow</span><span class="badge badge-pill text-primary border border-primary ml-1">OCR</span><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">Firestore</span></p>
+    </div>
+  </a>
+</div>
+
   
 
 </div>
+
   </main>
 
   <footer class="mt-auto py-3 text-center">
@@ -160,6 +171,7 @@
   </small>
   
 </footer>
+
   
   <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -183,6 +195,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
+
 
 </body>
 

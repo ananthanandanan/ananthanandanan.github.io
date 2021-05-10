@@ -26,33 +26,34 @@
   <title>About</title>
   <meta name="description" content="I don't work hard, I work smart.   Backend Developer/Networking and Analysis   Student at Amrita Vishwa Vidyapeetham    Member at amFOSS ">
 
-  
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
 
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
 
   <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
   <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
-
-<body class="d-flex flex-column h-100">
+<body class="h-100 d-flex flex-column">
 
   <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-themed">
 
   <a class="navbar-brand" href="/"><h5><b>K.N Anantha nandanan</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -65,11 +66,12 @@
 
       
 
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
 
 </nav>
-  <div class="col-lg-10 mx-auto mt-5 post">
+    <div class="col-lg-10 mx-auto mt-5 post">
   <h1 id="about-me"><strong>About Me</strong></h1>
 
 <p>Hi I am <strong>K N Anantha nandanan</strong> <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20">,<br>
@@ -78,7 +80,23 @@ My native place is Kollam, Kerala. My dream is to earn a position in the field o
 
 <div class="row">
 <div class="col mt-4">
-  <div class="timeline-body">
+  <div class="timeline-body bg-themed">
+    
+      <div class="timeline-item">
+        <div class="content">
+          <h2>Member, Google Developer Student Club</h2>
+          <h6 class="date">2020 — Ongoing</h6>
+          <p>Developer Student Club is the university-based community groups for students interested in Google developer technologies.</p>
+        </div>
+      </div>
+    
+      <div class="timeline-item">
+        <div class="content">
+          <h2>Member and Mentor, amFOSS</h2>
+          <h6 class="date">2019 — Ongoing</h6>
+          <p>FOSS@Amrita (also known as amFOSS) is a student community-based in Amrita Vishwa Vidyapeetham.</p>
+        </div>
+      </div>
     
       <div class="timeline-item">
         <div class="content">
@@ -123,6 +141,7 @@ My native place is Kollam, Kerala. My dream is to earn a position in the field o
   </small>
   
 </footer>
+
   
   <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -146,6 +165,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
+
 
 </body>
 
