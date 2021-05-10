@@ -1,7 +1,7 @@
 ---
 name: Hotel-DB
 tools: [Hotel, Java, JavaFX, Postgres]
-image: https://revcycleintelligence.com/images/site/article_headers/_normal/hospital%2C_green.jpg
+image: https://previews.123rf.com/images/jemastock/jemastock1606/jemastock160601712/57784241-hotel-concept-with-icon-design-vector-illustration-10-eps-graphic-.jpg
 description: A gui based Hotel management system
 ---
 
