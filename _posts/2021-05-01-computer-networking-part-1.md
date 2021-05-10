@@ -2,7 +2,7 @@
 title: Part-1 Computer Networks and the Internet
 tags: [Networking, Internet, Intro, API]
 style: fill
-color: dark
+color: warning
 description: This is the introduction to Internet, where we look into the basic concepts revolving around it. 
 ---
 
