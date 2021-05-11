@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Part-2 Why Protocol and Network Components">
+  <meta property="og:description" content="Why is there a use of protocol in networks and the different components connecting different end-systems.">
+
+  <title>Part-2 Why Protocol and Network Components</title>
+  <meta name="description" content="Why is there a use of protocol in networks and the different components connecting different end-systems.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>K.N Anantha nandanan</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 post">
+  <h1><b>Part-2 Why Protocol and Network Components</b></h1>
+
+<p class="post-metadata text-muted">
+  11 May 2021 -  
+  <b>4 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#networking">
+      <span class="tag badge badge-pill text-primary border border-primary">Networking</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#protocol">
+      <span class="tag badge badge-pill text-primary border border-primary">Protocol</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#components">
+      <span class="tag badge badge-pill text-primary border border-primary">Components</span>
+    </a>
+    </p>
+
+<p><img src="http://imperialedservices.com/skillacquisition/wp-content/uploads/2017/08/computer-networking.jpg" alt="" /></p>
+
+<h2 id="foreword">Foreword</h2>
+
+<p>In this part of the blog, I will be going into few concepts that are essential when you dive into networking, Mainly what is protocols, then we will look into briefly the components, physical components of the Internet.</p>
+
+<h3 id="what-is-a-protocol">What is a Protocol?</h3>
+
+<p>In the world of computer networking, one of the recurring and most common term we first familiarise with is protocols. So what are they? Well in the most basic terms they are just certain rules that need to be followed. But why the need? that too is pretty straightforward. Let’s imagine a world where there is no law or order, then what would the state of the world be? we can only imagine the chaos the worlds will be in. So in the same way Internet needs protocols for smooth functioning.</p>
+
+<p><img src="http://codingatschool.weebly.com/uploads/2/6/8/8/26889801/8405218_orig.gif" alt="" /></p>
+
+<hr />
+
+<p>For a human analogy, Say I was walking down a street and a stranger comes and says “HI”. So as a civilised human being my first response will also be “HI”. After establishing a greeting, the stranger will ask away another query and to that, I might respond to it. So this transfer of messages is the heart of what protocols are. And this is the basic form of communication on the Internet.</p>
+
+<h3 id="network-components">Network Components</h3>
+
+<p>Now let’s look into how all these connection across countries and continents are established. Well, there have to be some devices sending signals and some devices receiving them. Recall that in the previous part of the blog we discussed that the devices connected to the internet are often referred to as end-systems or hosts. They are called host because they are the ones that host the web browser program.</p>
+
+<p>Now in basic level they are of two types, namely clients and servers.</p>
+
+<p><img src="https://previews.123rf.com/images/vladru/vladru1805/vladru180500011/102521259-server-and-connect-computers-concept-internet-3d-illustration.jpg" alt="" /></p>
+
+<p>Clients, they are those what we generally use in our day-to-day life. Like smartphones, desktops, laptops etc. While the servers are more powerful machines, that stores a huge amount of data(videos, images, web pages, …).</p>
+
+<p>In current terms they are referred to as Data centers.</p>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li><li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+          <img src="https://blogs.synopsys.com/from-silicon-to-software/files/2021/01/Hyperscale-Data-Center-1024x576.jpg" class="d-block w-100" />
+        </div><div class="carousel-item">
+          <img src="
+https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/RP1371_CDC_Wyoming_02-1024x576.jpg" class="d-block w-100" />
+        </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+
+<h3 id="access-networks">Access Networks</h3>
+
+<p>Considering that the  applications and end-systems are the “edge of network”, then the access network will be the network that physically connects the hosts to first router(edge router) then to some distant host.</p>
+
+<p><img src="../static/p2-AN.png" alt="here" /></p>
+
+<p>There are thee type of access networks:</p>
+<ol>
+  <li>Home access</li>
+  <li>Enterprise access</li>
+  <li>Wide-area access</li>
+</ol>
+
+<h3 id="home-access">Home Access</h3>
+
+<p>Today, the most prevalent types of broadband residential access are Digital Subscriber Line(DSL) and cable. The DSL acquires its internet from the local telephone company, that provides its wired telephone access. This is what we refer to as ISP.</p>
+
+<p><img src="../static/p2-HN.png" alt="" /></p>
+
+<p>Now the Cable Internet Access makes use of the cable television company’s existing cable TV infrastructure. Today, mostly the cables have been changed to fibre optics which provides more transmission rate. Now if you are one of those who use (CIA), you might have seen the modem, these cable internet access requires it.</p>
+
+<h3 id="enterprise-access">Enterprise Access</h3>
+
+<p><img src="https://assets-global.website-files.com/5debb9b4f88fbc3f702d579e/5f46a4fde9fdd11434b47f53_local-area-network-diagram.jpeg" alt="" /></p>
+
+<p>When it comes to enterprise-level infrastructure, say a building, all the end-systems are connected, this forms the Local Area Network(LAN). There are many types of LAN technologies, but for simplicity sake let’s stay with Ethernet. Ethernet does use twisted-pair copper wire, but lately, the trend has shifted to wireless technology.</p>
+
+<hr />
+
+<h3 id="wide-area-wireless-access">Wide-Area Wireless Access</h3>
+
+<p>As we know wireless communication and technology has become the norm. All the new smartphones are utilising this technology to send messages, share videos, watch Netflix etc. But unlike the WiFi, which has the limitation of distance, using this the user need only be few tens of kilometres from the station. And with this every human need is now just a finger touch away, and that is no exaggeration.</p>
+
+<p><img src="https://images.idgesg.net/images/article/2018/03/mobile_smartphone_wireless_iot_virtual-network-100751593-large.jpg" alt="" /></p>
+
+<p>There are large investments in the wireless technology, ie 4G, 5G. In the near future we can witness many new innovation brought to us from this.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>We discussed about the different components and some important concepts that we need to understand before nose diving into deeper levels of computer networks. Next part we will go deeper into the core of networks.</p>
+
+
+
+<div class="pt-5">
+  
+</div>
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>K N Anantha nandanan</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:ananthanandanan@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/ananthanandanan"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/ananthan_2k"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/ananthan2k"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/de-blank"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/Ananthan2k"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+
+</html>
