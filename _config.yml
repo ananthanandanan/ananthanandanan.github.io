@@ -1,7 +1,9 @@
 ### Site Settings ###
 title               : K.N Anantha nandanan
 description         : >-
-                      I don't work hard, I work smart. <br> <br> Backend Developer/Networking and Analysis <br> <a href = "https://www.amrita.edu/"> Student at Amrita Vishwa Vidyapeetham</a> <br>  <a href="https://amfoss.in/" title = "amFOSS"> Member at amFOSS</a> <br>
+                      I don't work hard, I work smart. <br> <br>Developer and exploring about Computer Network & Security<br> Check out my CV 
+                        <a href = "https://ananthanandanan.github.io/Documents/CV.pdf">here</a> 
+                        <br> <a href="https://amfoss.in/" title = "amFOSS"> Member and Mentor @amFOSS</a> <br>
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : ananthanandanan/ananthanandanan.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
